@@ -24,14 +24,18 @@ d)	Business and Data Analysts/Scientists, who want to implement some of the most
 
 2.	A description of the data and how it will be used to solve the problem. 
 
-•	I will need data from the Toronto’s database; census 2016, on the Population, Average income per Neighborhood with Toronto's Neighborhoods shapefile and Foursquare API to collect competitors on the same neighborhoods.
-•	I would need to leverage the below data and  Foursquare location data to solve or execute;
+I will need data from the Toronto’s database; census 2016, on the Population, Average income per Neighborhood with Toronto's Neighborhoods shapefile and Foursquare API to collect competitors on the same neighborhoods.
+I would need to leverage the below data and  Foursquare location data to solve or execute;
 Data sources:
 
 I.	Toronto's Census data is publicly available at this website: https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#8c732154-5012-9afe-d0cd-ba3ffc813d5a
+
 II.	Toronto Neighborhoods' shapefile is publicly available at this website: https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#a45bd45a-ede8-730e-1abc-93105b2c439f
+
 III. I will also use the csv file; “https://cocl.us/Geospatial_data”  to get the geographical coordinates of the neighbourhoods.
+
 IV.	To get information on the location and venues in Toronto I will use Foursquare’s explore API. It will give me venues recommendations. I will then collect  their names, categories and locations (latitude and longitude).
+
 V.	From Foursquare API (https://developer.foursquare.com/docs/places-api), I will retrieve the following for each venue:
 -	Name of the venue.
 -	Category type as defined by the API.
